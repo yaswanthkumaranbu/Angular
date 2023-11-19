@@ -9,11 +9,13 @@ import { Component } from '@angular/core';
 export class AppComponent {
   name1:string = ''
   result:string = ''
+  symbol:string=''
 
 
 
   add(){  
-    this.result = this.name1
+    this.result = this.name1;
+    this.symbol='!';
   }
 
 }
